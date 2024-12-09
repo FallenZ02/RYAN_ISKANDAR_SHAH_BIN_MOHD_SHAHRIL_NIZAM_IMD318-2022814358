@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf2f4;
+}
+
+/* Header styling */
+header {
+    background-color: #2b2d42;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust for header and footer height */
+    background-color: #edf2f4;
+}
+
+/* Biodata container styling */
+.biodata-container {
+    border: 1px solid #2b2d42;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Biodata header styling */
+.biodata-container h1 {
+    font-size: 24px;
+    color: #2b2d42;
+    margin-bottom: 20px;
+}
+
+/* Profile picture styling */
+.biodata-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #2b2d42;
+    margin-bottom: 20px;
+}
+
+/* Biodata text styling */
+.biodata-container p {
+    margin: 12px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.biodata-container .label {
+    font-weight: bold;
+    color: #2b2d42;
+}
+
+/* Back to homepage link styling */
+.biodata-container .homepage-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2b2d42;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.biodata-container .homepage-link:hover {
+    background-color: #8d99ae;
+}
+
+/* Footer styling */
+footer {
+    background-color: #8d99ae;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
